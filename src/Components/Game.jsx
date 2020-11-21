@@ -8,7 +8,7 @@ const Game = () => {
   const [stepNumber, setStepNumber] = useState(0);
   const [xIsNext, setXisNext] = useState(true);
   const winner = calculateWinner(history[stepNumber]);
-  const xO = xIsNext ? "red" : "ojo";
+  const xO = xIsNext ? "▲" : "▭";
 
   const handleClick = (i) => {
     const historyPoint = history.slice(0, stepNumber + 1);
@@ -40,7 +40,6 @@ const Game = () => {
 
   return (
     <>
-      <h1>React Tic Tac Toe - With Hooks</h1>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="info-wrapper">
         <div>
