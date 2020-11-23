@@ -38,7 +38,7 @@
 }
 
 body {
-  /* background-color: black; */
+  background-color: #12232e;
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -54,7 +54,7 @@ h1 {
 
 .board {
   /* border: 1rem solid #ff652f; */
-  background: #ff652f;
+  background: #7bff2f;
   width: 500px;
   height: 500px;
   display: grid;
@@ -92,7 +92,7 @@ li {
 }
 
 .info-wrapper button {
-  /* background: #272727; */
+  background: #ca2020;
   color: white;
   border: none;
   outline: none;
